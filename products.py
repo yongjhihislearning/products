@@ -10,3 +10,7 @@ while True:
 	products.append(p) # 7-10行可寫成products.append([name, price])
 print(products)
 print(products[0][0])
+
+for i in products:
+	print(i)
+	print(i[0], '的價格是', i[1])
